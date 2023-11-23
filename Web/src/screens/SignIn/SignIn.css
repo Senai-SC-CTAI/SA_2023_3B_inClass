@@ -1,0 +1,77 @@
+/* SignIn.css */
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: #00AEA4;
+  }
+  
+  .title {
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: -20px;
+    color: #000;
+  }
+  
+  .logoContainer {
+    margin-bottom: 20px;
+  }
+  
+  .inputContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 7px 3.84px rgba(0, 0, 0, 0.25);
+    border: 1px solid #ccc;
+  }
+  
+  .input {
+    flex: 1;
+    padding: 8px;
+  }
+  
+  .loginButton {
+    background-color: #FFF;
+    padding: 10px 40px;
+    border-radius: 10px;
+    align-items: center;
+    margin-top: 50px;
+    box-shadow: 0px 7px 3.84px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+  }
+  
+  .buttonText {
+    color: #000;
+    font-weight: bold;
+  }
+  
+  .signupText {
+    margin-top: 20px;
+    color: #fff;
+  }
+  
+  .logo {
+    width: 200px;
+    height: 150px;
+    object-fit: contain;
+  }
+  
+  .smallLogo {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+  

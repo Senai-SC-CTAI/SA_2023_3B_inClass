@@ -1,0 +1,79 @@
+/* Calendar.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f2f2f2;
+  }
+  
+  .title {
+    font-weight: bold;
+    font-size: 30px;
+  }
+  
+  .manha {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 20px;
+  }
+  
+  .seta,
+  .flip {
+    width: 30px;
+    height: 30px;
+  }
+  .voltar{
+    left: 15%;
+    font-weight: bold;
+  }
+  .logout a {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+  }
+  .esq{
+    rotate: -180deg;
+  }
+  
+  .calendar {
+    width: 70%;
+    height: 80%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .column {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .square {
+    border: 1px solid black;
+    width: 100%;
+    height: 7.14%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 10px;
+  }
+  
+  .black {
+    background-color: black;
+    color: #fff;
+  }
+  
+  .white {
+    color: white;
+  }
+  
+  .blue {
+    background-color: #00aea4;
+  }
+  

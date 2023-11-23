@@ -1,0 +1,57 @@
+/* Reservation.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f5f5;
+  }
+  
+  .titleContainer {
+    align-items: center;
+    margin-bottom: 24px;
+  }
+  
+  .titulo {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333333;
+  }
+  
+  .abaContainer {
+    margin-bottom: 16px;
+    width: 50%;
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: #ffffff;
+    cursor: pointer;
+  }
+
+  
+  .abaHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    background-color: #00aea4;
+  }
+  
+  .abaHeaderText {
+    color: #ffffff;
+    font-size: 16px;
+  }
+  
+  .setinha {
+    font-size: 24px;
+    color: #ffffff;
+  }
+  
+  .textoContainer {
+    padding: 16px;
+    background-color: #f2f2f2;
+  }
+  
+  .texto {
+    color: #333333;
+    font-size: 14px;
+  }
+  

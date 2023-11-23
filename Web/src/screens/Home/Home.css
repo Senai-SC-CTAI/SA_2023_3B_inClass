@@ -1,0 +1,56 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo {
+    width: 240px;
+    height: 100px;
+    margin-bottom: 20px;
+  }
+  
+  .icones {
+    width: 75px;
+    height: 80px;
+    margin-bottom: 10px;
+  }
+  
+  .buttonContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 40px;
+    margin: 5px 60px;
+  }
+  
+  .button {
+    width: 150px;
+    height: 150px;
+    background-color: #00AEA4;
+    display: flex;
+    padding: 1rem 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+  }
+  
+  .buttonText {
+    color: black;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .buttonMarginLeft {
+    margin-left: 10px;
+  }
+
+  .logout{
+    position: fixed;
+    right: 5rem;
+    top: 4rem;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    cursor: pointer;
+  }
